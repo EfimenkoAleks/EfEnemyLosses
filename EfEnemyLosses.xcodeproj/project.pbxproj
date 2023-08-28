@@ -9,21 +9,51 @@
 /* Begin PBXBuildFile section */
 		CECEA89C2A9A3BF7000D69E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECEA89B2A9A3BF7000D69E9 /* AppDelegate.swift */; };
 		CECEA89E2A9A3BF7000D69E9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECEA89D2A9A3BF7000D69E9 /* SceneDelegate.swift */; };
-		CECEA8A02A9A3BF7000D69E9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECEA89F2A9A3BF7000D69E9 /* ViewController.swift */; };
-		CECEA8A32A9A3BF7000D69E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CECEA8A12A9A3BF7000D69E9 /* Main.storyboard */; };
 		CECEA8A52A9A3BF9000D69E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CECEA8A42A9A3BF9000D69E9 /* Assets.xcassets */; };
 		CECEA8A82A9A3BF9000D69E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CECEA8A62A9A3BF9000D69E9 /* LaunchScreen.storyboard */; };
+		CECEA8B22A9A3DA4000D69E9 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECEA8B02A9A3DA4000D69E9 /* ListViewController.swift */; };
+		CECEA8B32A9A3DA4000D69E9 /* ListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CECEA8B12A9A3DA4000D69E9 /* ListViewController.xib */; };
+		CECEA8B52A9A446F000D69E9 /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECEA8B42A9A446F000D69E9 /* ListViewModel.swift */; };
+		CECEA8B72A9A4488000D69E9 /* ListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECEA8B62A9A4488000D69E9 /* ListModel.swift */; };
+		CECEA8BC2A9A46A7000D69E9 /* ListTableViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECEA8BB2A9A46A7000D69E9 /* ListTableViewManager.swift */; };
+		CECEA8C02A9A5EC5000D69E9 /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECEA8BE2A9A5EC5000D69E9 /* ListTableViewCell.swift */; };
+		CECEA8C12A9A5EC5000D69E9 /* ListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CECEA8BF2A9A5EC5000D69E9 /* ListTableViewCell.xib */; };
+		CECEA8C42A9A5F7E000D69E9 /* ConstantsId.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECEA8C32A9A5F7E000D69E9 /* ConstantsId.swift */; };
+		CECEA8C72A9A6012000D69E9 /* TableViewCell+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECEA8C62A9A6012000D69E9 /* TableViewCell+Extensions.swift */; };
+		CECEA8C92A9A792C000D69E9 /* ListInterfaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECEA8C82A9A792C000D69E9 /* ListInterfaces.swift */; };
+		CECEA8CD2A9A8430000D69E9 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECEA8CB2A9A8430000D69E9 /* DetailViewController.swift */; };
+		CECEA8CE2A9A8430000D69E9 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CECEA8CC2A9A8430000D69E9 /* DetailViewController.xib */; };
+		CECEA8D52A9B5433000D69E9 /* ListFecher.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECEA8D42A9B5433000D69E9 /* ListFecher.swift */; };
+		CECEA8D82A9B5484000D69E9 /* ListFecherProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECEA8D72A9B5484000D69E9 /* ListFecherProtocol.swift */; };
+		CECEA8DB2A9B5574000D69E9 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECEA8DA2A9B5574000D69E9 /* NetworkService.swift */; };
+		CECEA8DD2A9B5598000D69E9 /* NetworkServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECEA8DC2A9B5598000D69E9 /* NetworkServiceProtocol.swift */; };
+		CECEA8DF2A9BB120000D69E9 /* DIContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECEA8DE2A9BB120000D69E9 /* DIContainer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CECEA8982A9A3BF7000D69E9 /* EfEnemyLosses.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EfEnemyLosses.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CECEA89B2A9A3BF7000D69E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CECEA89D2A9A3BF7000D69E9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CECEA89F2A9A3BF7000D69E9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CECEA8A22A9A3BF7000D69E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CECEA8A42A9A3BF9000D69E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CECEA8A72A9A3BF9000D69E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CECEA8A92A9A3BF9000D69E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CECEA8B02A9A3DA4000D69E9 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		CECEA8B12A9A3DA4000D69E9 /* ListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListViewController.xib; sourceTree = "<group>"; };
+		CECEA8B42A9A446F000D69E9 /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
+		CECEA8B62A9A4488000D69E9 /* ListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListModel.swift; sourceTree = "<group>"; };
+		CECEA8BB2A9A46A7000D69E9 /* ListTableViewManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewManager.swift; sourceTree = "<group>"; };
+		CECEA8BE2A9A5EC5000D69E9 /* ListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
+		CECEA8BF2A9A5EC5000D69E9 /* ListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListTableViewCell.xib; sourceTree = "<group>"; };
+		CECEA8C32A9A5F7E000D69E9 /* ConstantsId.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantsId.swift; sourceTree = "<group>"; };
+		CECEA8C62A9A6012000D69E9 /* TableViewCell+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TableViewCell+Extensions.swift"; sourceTree = "<group>"; };
+		CECEA8C82A9A792C000D69E9 /* ListInterfaces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListInterfaces.swift; sourceTree = "<group>"; };
+		CECEA8CB2A9A8430000D69E9 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		CECEA8CC2A9A8430000D69E9 /* DetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		CECEA8D42A9B5433000D69E9 /* ListFecher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListFecher.swift; sourceTree = "<group>"; };
+		CECEA8D72A9B5484000D69E9 /* ListFecherProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListFecherProtocol.swift; sourceTree = "<group>"; };
+		CECEA8DA2A9B5574000D69E9 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		CECEA8DC2A9B5598000D69E9 /* NetworkServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkServiceProtocol.swift; sourceTree = "<group>"; };
+		CECEA8DE2A9BB120000D69E9 /* DIContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DIContainer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +86,150 @@
 		CECEA89A2A9A3BF7000D69E9 /* EfEnemyLosses */ = {
 			isa = PBXGroup;
 			children = (
+				CECEA8D22A9B53F7000D69E9 /* Services */,
+				CECEA8C52A9A5FEB000D69E9 /* Extensions */,
+				CECEA8C22A9A5F61000D69E9 /* Constants */,
+				CECEA8AF2A9A3D40000D69E9 /* ListController */,
+				CECEA8CA2A9A83F1000D69E9 /* DetailController */,
 				CECEA89B2A9A3BF7000D69E9 /* AppDelegate.swift */,
 				CECEA89D2A9A3BF7000D69E9 /* SceneDelegate.swift */,
-				CECEA89F2A9A3BF7000D69E9 /* ViewController.swift */,
-				CECEA8A12A9A3BF7000D69E9 /* Main.storyboard */,
 				CECEA8A42A9A3BF9000D69E9 /* Assets.xcassets */,
 				CECEA8A62A9A3BF9000D69E9 /* LaunchScreen.storyboard */,
 				CECEA8A92A9A3BF9000D69E9 /* Info.plist */,
 			);
 			path = EfEnemyLosses;
+			sourceTree = "<group>";
+		};
+		CECEA8AF2A9A3D40000D69E9 /* ListController */ = {
+			isa = PBXGroup;
+			children = (
+				CECEA8B82A9A44A2000D69E9 /* View */,
+				CECEA8B92A9A44AC000D69E9 /* ViewModel */,
+				CECEA8BA2A9A44B9000D69E9 /* Model */,
+				CECEA8C82A9A792C000D69E9 /* ListInterfaces.swift */,
+			);
+			path = ListController;
+			sourceTree = "<group>";
+		};
+		CECEA8B82A9A44A2000D69E9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CECEA8BD2A9A5E9F000D69E9 /* Cell */,
+				CECEA8B02A9A3DA4000D69E9 /* ListViewController.swift */,
+				CECEA8B12A9A3DA4000D69E9 /* ListViewController.xib */,
+				CECEA8BB2A9A46A7000D69E9 /* ListTableViewManager.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CECEA8B92A9A44AC000D69E9 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CECEA8B42A9A446F000D69E9 /* ListViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		CECEA8BA2A9A44B9000D69E9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CECEA8B62A9A4488000D69E9 /* ListModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CECEA8BD2A9A5E9F000D69E9 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				CECEA8BE2A9A5EC5000D69E9 /* ListTableViewCell.swift */,
+				CECEA8BF2A9A5EC5000D69E9 /* ListTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		CECEA8C22A9A5F61000D69E9 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				CECEA8C32A9A5F7E000D69E9 /* ConstantsId.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		CECEA8C52A9A5FEB000D69E9 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				CECEA8C62A9A6012000D69E9 /* TableViewCell+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		CECEA8CA2A9A83F1000D69E9 /* DetailController */ = {
+			isa = PBXGroup;
+			children = (
+				CECEA8D12A9A84E0000D69E9 /* Model */,
+				CECEA8D02A9A84D2000D69E9 /* ViewModel */,
+				CECEA8CF2A9A84C7000D69E9 /* View */,
+			);
+			path = DetailController;
+			sourceTree = "<group>";
+		};
+		CECEA8CF2A9A84C7000D69E9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CECEA8CB2A9A8430000D69E9 /* DetailViewController.swift */,
+				CECEA8CC2A9A8430000D69E9 /* DetailViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CECEA8D02A9A84D2000D69E9 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		CECEA8D12A9A84E0000D69E9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CECEA8D22A9B53F7000D69E9 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				CECEA8D32A9B5408000D69E9 /* APIService */,
+				CECEA8DE2A9BB120000D69E9 /* DIContainer.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		CECEA8D32A9B5408000D69E9 /* APIService */ = {
+			isa = PBXGroup;
+			children = (
+				CECEA8D92A9B54F6000D69E9 /* ListNetworkService */,
+				CECEA8D62A9B5459000D69E9 /* Fecher */,
+			);
+			path = APIService;
+			sourceTree = "<group>";
+		};
+		CECEA8D62A9B5459000D69E9 /* Fecher */ = {
+			isa = PBXGroup;
+			children = (
+				CECEA8D42A9B5433000D69E9 /* ListFecher.swift */,
+				CECEA8D72A9B5484000D69E9 /* ListFecherProtocol.swift */,
+			);
+			path = Fecher;
+			sourceTree = "<group>";
+		};
+		CECEA8D92A9B54F6000D69E9 /* ListNetworkService */ = {
+			isa = PBXGroup;
+			children = (
+				CECEA8DA2A9B5574000D69E9 /* NetworkService.swift */,
+				CECEA8DC2A9B5598000D69E9 /* NetworkServiceProtocol.swift */,
+			);
+			path = ListNetworkService;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,8 +291,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				CECEA8A82A9A3BF9000D69E9 /* LaunchScreen.storyboard in Resources */,
+				CECEA8C12A9A5EC5000D69E9 /* ListTableViewCell.xib in Resources */,
+				CECEA8CE2A9A8430000D69E9 /* DetailViewController.xib in Resources */,
 				CECEA8A52A9A3BF9000D69E9 /* Assets.xcassets in Resources */,
-				CECEA8A32A9A3BF7000D69E9 /* Main.storyboard in Resources */,
+				CECEA8B32A9A3DA4000D69E9 /* ListViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +305,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CECEA8A02A9A3BF7000D69E9 /* ViewController.swift in Sources */,
+				CECEA8CD2A9A8430000D69E9 /* DetailViewController.swift in Sources */,
+				CECEA8C02A9A5EC5000D69E9 /* ListTableViewCell.swift in Sources */,
 				CECEA89C2A9A3BF7000D69E9 /* AppDelegate.swift in Sources */,
 				CECEA89E2A9A3BF7000D69E9 /* SceneDelegate.swift in Sources */,
+				CECEA8C92A9A792C000D69E9 /* ListInterfaces.swift in Sources */,
+				CECEA8B52A9A446F000D69E9 /* ListViewModel.swift in Sources */,
+				CECEA8DB2A9B5574000D69E9 /* NetworkService.swift in Sources */,
+				CECEA8BC2A9A46A7000D69E9 /* ListTableViewManager.swift in Sources */,
+				CECEA8B22A9A3DA4000D69E9 /* ListViewController.swift in Sources */,
+				CECEA8D52A9B5433000D69E9 /* ListFecher.swift in Sources */,
+				CECEA8D82A9B5484000D69E9 /* ListFecherProtocol.swift in Sources */,
+				CECEA8C72A9A6012000D69E9 /* TableViewCell+Extensions.swift in Sources */,
+				CECEA8DF2A9BB120000D69E9 /* DIContainer.swift in Sources */,
+				CECEA8C42A9A5F7E000D69E9 /* ConstantsId.swift in Sources */,
+				CECEA8B72A9A4488000D69E9 /* ListModel.swift in Sources */,
+				CECEA8DD2A9B5598000D69E9 /* NetworkServiceProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		CECEA8A12A9A3BF7000D69E9 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CECEA8A22A9A3BF7000D69E9 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		CECEA8A62A9A3BF9000D69E9 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -292,9 +464,8 @@
 				INFOPLIST_FILE = EfEnemyLosses/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -320,9 +491,8 @@
 				INFOPLIST_FILE = EfEnemyLosses/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
